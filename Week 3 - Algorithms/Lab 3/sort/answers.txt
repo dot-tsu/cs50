@@ -1,0 +1,68 @@
+sort1 uses: Bubble
+
+How do you know?: Because when the numbers are already sorted it takes considerably less time.
+
+sort2 uses: Merge
+
+How do you know?: Because although the amount of numbers to sort increases considerably, the time to sort them does not increase as much compared to the other algorithms.
+
+sort3 uses: Selection
+
+How do you know?: Because it always takes the same amount of time to sort the numbers regardless of whether they are sorted or not.
+
+
+Times
+
+    Sort 1:
+    - 5000
+        - Random: 0.074s    O(N²) 
+        - Reversed: 0.111s  O(N²)
+        - Sorted: 0.038s    Ω(N)
+
+    - 10000
+        - Random: 0.204s    O(N²)
+        - Reversed: 0.250s  O(N²)
+        - Sorted: 0.074s    Ω(N)
+
+    - 50000
+        - Random: 6.317s    O(N²)
+        - Reversed: 5.250s  O(N²)
+        - Sorted: 0.850s    Ω(N)
+
+    Bubble
+
+    Sort 2:
+    - 5000
+        - Random: 0.040s    O(N log N)
+        - Reversed: 0.041s  O(N log N)
+        - Sorted: 0.044s    Ω(N log N)
+
+    - 10000
+        - Random: 0.080s    O(N log N)
+        - Reversed: 0.071s  O(N log N)
+        - Sorted: 0.084s    Ω(N log N)
+
+    - 50000
+        - Random: 0.749s    O(N log N)
+        - Reversed: 0.752s  O(N log N)
+        - Sorted: 0.743s    Ω(N log N)
+
+    Merge
+
+    Sort 3:
+    - 5000
+        - Random: 0.060s    O(N²)
+        - Reversed: 0.050s  O(N²)
+        - Sorted: 0.050s    Ω(N²)
+
+    - 10000
+        - Random: 0.140s    O(N²)
+        - Reversed: 0.150s  O(N²)
+        - Sorted: 0.140s    Ω(N²)
+
+    - 50000
+        - Random: 2.700s    O(N²)
+        - Reversed: 2.900s  O(N²)
+        - Sorted: 2.700s    Ω(N²)
+
+    Selection

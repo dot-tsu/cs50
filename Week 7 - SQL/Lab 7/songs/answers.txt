@@ -1,0 +1,10 @@
+>> The audio aura from a listener's top 100 songs of 2018 might reflect their predominant moods.
+Yet, this method has limitations. It might not fully capture emotions or music tastes because it's based
+on a limited set of songs.
+
+To improve accuracy, considering song play counts or favorites could give a better understanding.
+Also, exploring more factors like tempo or personal associations with songs could provide a deeper insight
+into the listener's music preferences and feelings.
+
+In essence, while this method gives a glimpse into someone's music mood, it might not tell the whole story.
+Including more details and context could offer a better understanding of the listener's musical vibes and emotions.

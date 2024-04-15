@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Buy
+{% endblock %}
+
+{% block main %}
+<div class="container mt-4 d-flex justify-content-center">
+    <form action="/buy" method="post" style="max-width: 400px;">
+        <div class="input-group">
+            <input type="text" id="symbol" name="symbol" class="form-control" placeholder="Stock Symbol" required>
+            <input type="number" min="1" id="shares" name="shares" class="form-control" placeholder="Number of Shares"
+                required>
+            <button type="submit" class="btn btn-primary">Buy</button>
+        </div>
+    </form>
+</div>
+
+{% endblock %}

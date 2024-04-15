@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Sell
+{% endblock %}
+
+{% block main %}
+<div class="container mt-4 d-flex justify-content-center">
+    <form action="/sell" method="post" style="max-width: 400px;">
+        <div class="input-group">
+            <select id="symbol" name="symbol" class="form-control" required>
+                {% for stock in user_stocks %}
+                <option value="{{ stock.stock_symbol }}">{{ stock.stock_symbol }}</option>
+                {% endfor %}
+            </select>
+            <input type="number" min="1" id="shares" name="shares" class="form-control" placeholder="Number of Shares"
+                required>
+            <button type="submit" class="btn btn-primary">Sell</button>
+        </div>
+    </form>
+</div>
+
+{% endblock %}
