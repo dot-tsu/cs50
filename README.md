@@ -220,7 +220,7 @@ To see my solutions, simply navigate to the respective week's folder and explore
 
 - [Final Project](/Final%20Project/)
 
-- [laggy-or-not](/Final%20Project/laggy-or-not)
+  - [laggy-or-not](/Final%20Project/laggy-or-not)
 
 ## License
 
