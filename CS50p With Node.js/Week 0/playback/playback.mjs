@@ -6,7 +6,6 @@ const rl = readline.createInterface({
 });
 
 rl.on("line", (input) => {
-  let string = input.replaceAll(" ", "...");
-  console.log(string);
+  console.log(input.replaceAll(" ", "..."));
   rl.close();
 });
